@@ -66,6 +66,15 @@ footer { max-width: 68rem; margin: 0 auto; padding: 2rem 1.5rem 3rem; color: var
 .paper-hero h1 { font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.1; max-width: 24ch; }
 .paper-hero .back { font: 600 .95rem var(--display); margin: 0 0 1.5rem; }
 .paper-hero .back a { text-decoration: none; }
+.paper-hero { padding-bottom: 2.5rem; }
+.reading { grid-template-columns: 1fr; padding-top: 0; }
+.reading .text { max-width: 42rem; font-size: 1.2rem; line-height: 1.75; }
+.reading h2 { margin-bottom: 1rem; }
+.reading p { margin: 0 0 1.25rem; }
+.paper-meta { margin: 2.5rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--mist); font-size: 1.05rem; line-height: 1.6; }
+.paper-meta div + div { margin-top: 1rem; }
+.paper-meta dt { font: 600 .9rem var(--display); color: var(--flint); }
+.paper-meta dd { margin: .2rem 0 0; }
 
 .band td { border-bottom-color: rgba(247, 248, 245, .15); }
 .band td:first-child, .band .discussant, .band .session-meta { color: #B9C7CF; }
