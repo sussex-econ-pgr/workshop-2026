@@ -28,9 +28,7 @@ nav ul { display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; fl
 nav a { color: var(--chalk); text-decoration: none; }
 nav a:hover, nav a[aria-current="page"] { color: var(--mint); }
 nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
-.brand { display: flex; align-items: center; gap: 1rem; font-weight: 700; }
-.brand img { height: 4rem; width: auto; display: block; }
-.brand span { padding-left: 1rem; border-left: 1px solid rgba(247, 248, 245, .35); }
+.brand { font-weight: 700; }
 
 /* Hero */
 .hero { max-width: 68rem; margin: 0 auto; padding: 3.5rem 1.5rem 3.5rem; }
@@ -94,7 +92,6 @@ footer div { max-width: 68rem; margin: 0 auto; padding: 2rem 1.5rem 2.5rem; font
   section { grid-template-columns: 1fr; gap: 1rem; padding: 3rem 1.5rem; }
   .hero { padding-top: 2rem; }
   nav ul { gap: 1rem; }
-  .brand img { height: 3.25rem; }
   .schedule td { display: block; width: auto; }
   .schedule td:first-child { padding-bottom: 0; border-bottom: 0; }
   .schedule td:last-child { padding-top: .3rem; }
