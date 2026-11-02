@@ -57,6 +57,16 @@ footer { max-width: 68rem; margin: 0 auto; padding: 2rem 1.5rem 3rem; color: var
 .schedule strong { display: block; font-family: var(--display); }
 .schedule .discussant { display: block; font-size: .95rem; color: var(--flint); }
 .schedule .break td:last-child { font: 600 1rem var(--display); }
+.schedule .paper-link { color: inherit; text-decoration-color: var(--sea); text-decoration-thickness: 2px; }
+.band .schedule .paper-link { text-decoration-color: #8FD3C5; }
+.schedule .paper-link:hover { color: var(--sea); }
+.band .schedule .paper-link:hover { color: #8FD3C5; }
+
+/* Abstract pages */
+.paper-hero h1 { font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.1; max-width: 24ch; }
+.paper-hero .back { font: 600 .95rem var(--display); margin: 0 0 1.5rem; }
+.paper-hero .back a { text-decoration: none; }
+
 .band td { border-bottom-color: rgba(247, 248, 245, .15); }
 .band td:first-child, .band .discussant, .band .session-meta { color: #B9C7CF; }
 
